@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    span#menu1 {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        border-bottom: 1px solid lightgray;
+    }
+
+    menu {
+        text-align: center;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    section#home {
+        width: 748px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    section#home > div#text1 {
+        line-height: 1.5em;
+        text-indent: 30px;
+    }
+
+    section#home > div#text1 > h1 {
+        padding-bottom: 40px;
+        font-variant: small-caps;
+        font-size: 2em;
+    }
+
+    section#home > div#text1 > p {
+        columns: 2;
+    }
+}
