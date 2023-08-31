@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
     span#menu1 {
         display: none;
     }
@@ -18,10 +23,8 @@
     }
 
     section#home {
-        width: 748px;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 5px;
+        width: 70%;
+        padding: 30px;
         border-bottom: 1px solid lightgray;
     }
 
@@ -38,5 +41,34 @@
 
     section#home > div#text1 > p {
         columns: 2;
+
+    }
+
+    section#proposta {
+       width: 100%;
+
+    }
+
+    section#proposta > div#text2 {
+        width: 100%;
+        display: block;
+    }
+
+    section#proposta > div#text2 > h1 {
+        font-size: 3em;
+    }
+
+    section#proposta > div#text2 > p {
+        font-size: 2em;
+    }
+
+    section#inovação {
+        margin: auto;
+        width: 70%;
+    }
+
+    section#inovação > div.quadrado {
+        display: inline-block;
+        padding: 50px;
     }
 }
